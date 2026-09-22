@@ -65,18 +65,11 @@ function spaceScene(){
 	circle(500, 90, 5)
 	circle(700, 200, 4)
 
-	fill(200, 100, 150)
-	ellipse(200, 220, 180, 40)
-
 	fill(138, 43, 226)
 	circle(200, 220, 120)
 
 	fill(160, 160, 180)
 	rect(0, 350, windowWidth, windowHeight)
-
-	fill(120, 120, 140)
-	ellipse(150, 400, 60, 20)
-	ellipse(450, 420, 90, 30)
 
 	fill(220, 220, 220)
 	ellipse(550, 180, 120, 40)

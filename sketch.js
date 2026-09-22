@@ -3,12 +3,13 @@ let bgR = 222, bgG = 44, bgB = 172;
 let img;
 
 function preload() {
-  img = loadImage('ojo.png');
+  
 }
 
-function setup() {
+async function setup() {
   createCanvas(600, 700);
   rectMode(CENTER);
+  img = await loadImage('ojo.png');
 }
 
 function draw() {
